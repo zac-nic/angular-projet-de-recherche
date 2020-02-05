@@ -1,5 +1,26 @@
-<h2>Products</h2>
+<h2>Catalogue</h2>
 
+<div *ngFor="let product of products">
+
+  <h3>
+    <a [title]="product.name + ' details'">
+      {{ product.name }}
+    </a>
+  </h3>
+
+  <p *ngIf="product.description">
+    Description: <b>{{ product.description }}</b>
+  </p>
+
+  <p *ngIf="product.price">
+    Prix: <b>${{ product.price }}.99</b>
+  </p>
+
+  <button (click)="share()">
+    Partager
+  </button>
+
+</div>
 
 <!-- 
 Copyright Google LLC. All Rights Reserved.

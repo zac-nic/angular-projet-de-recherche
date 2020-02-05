@@ -1,18 +1,18 @@
 export const products = [
   {
-    name: 'Phone XL',
-    price: 799,
-    description: 'A large phone with one of the best screens'
+    name: 'Cendrillon',
+    price: 19,
+    description: 'Cendrillon à la recherche de son prince charmant'
   },
   {
-    name: 'Phone Mini',
-    price: 699,
-    description: 'A great phone with one of the best cameras'
+    name: 'Le seigneur des anneaux',
+    price: 24,
+    description: 'Un classique du genre fantastique'
   },
   {
-    name: 'Phone Standard',
-    price: 299,
-    description: ''
+    name: 'Le trône de fer',
+    price: 29,
+    description: '1er livre de la saga "A song of ice and fire"'
   }
 ];
 

@@ -1,14 +1,14 @@
 [
   {
-    "type": "Overnight",
+    "type": "La journée même",
     "price": 25.99
   },
   {
-    "type": "2-Day",
+    "type": "Express 2 jours",
     "price": 9.99
   },
   {
-    "type": "Postal",
+    "type": "Standard",
     "price": 2.99
   }
 ]
