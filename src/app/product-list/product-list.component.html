@@ -16,9 +16,14 @@
     Prix: <b>${{ product.price }}.99</b>
   </p>
 
-  <button (click)="share()">
-    Partager
-  </button>
+<button (click)="share()">
+  Partager
+</button>
+
+<app-product-alert
+  [product]="product"
+  (notify)="onNotify()">
+</app-product-alert>
 
 </div>
 
