@@ -9,6 +9,11 @@ export const products = [
     price: 24,
     description: 'Un classique du genre fantastique'
   },
+   {
+    name: 'Asterix le Gaulois',
+    price: 17,
+    description: 'Ils sont fous ces Romains!'
+  },
   {
     name: 'Le trône de fer',
     price: 29,

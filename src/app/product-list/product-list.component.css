@@ -1,4 +1,10 @@
-
+.livre{
+  border: 1px solid grey;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px;
+  padding: 1em;
+  margin: 1em;
+}
 
 /*
 Copyright Google LLC. All Rights Reserved.
