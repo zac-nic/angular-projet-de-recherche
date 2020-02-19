@@ -5,5 +5,5 @@
 				<h3 class="titre">{{ product.name }}</h3>
 				<h4>{{ product.price | currency }}</h4>
 				<p>{{ product.description }}</p>
-				<button>Ajouter au panier</button>
+				<button (click)="addToCart(product)">Ajouter au panier</button>
 			</div>
